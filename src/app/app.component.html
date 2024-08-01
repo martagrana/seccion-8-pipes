@@ -1,10 +1,11 @@
 <main>
   <article class="temperatures">
     <header>
-      <img src="temp-icon.png" alt="Thermometer icon" />
+      <img src="temp-icon.png"
+           alt="Thermometer icon" />
       <div>
         <h2>Current Temperatures</h2>
-        <p>{{ currentDate }}</p>
+        <p>{{ currentDate | date }}</p>
       </div>
     </header>
     <p>New York: {{ currentTemperaturs.newYork }}</p>
@@ -15,7 +16,8 @@
 
   <article class="temperatures">
     <header>
-      <img src="temp-icon.png" alt="Thermometer icon" />
+      <img src="temp-icon.png"
+           alt="Thermometer icon" />
       <div>
         <h2>Historic Temperatures</h2>
         <p>Berlin</p>
